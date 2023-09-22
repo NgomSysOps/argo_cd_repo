@@ -11,7 +11,7 @@ spec:
     path: myFiles
   destination:
     server: https://kubernetes.default.svc
-    namespace: spb_app_ns
+    namespace: spring-boot-app-ns
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
